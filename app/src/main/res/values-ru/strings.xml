@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Моё приложение</string>
-    <string name="textBoxAddText">Enter</string>
-    <string name="buttonAddText">Добавить</string>
-    <string name="editTextHint">Введите элемент</string>
-    <string name="ButtonAddText">Add</string>
-    <string name="ButtonView">View</string>
-</resources>

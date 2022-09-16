@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Моё приложение</string>
+    <string name="editTextHint">Введите модель авто</string>
+    <string name="ButtonAddText">Добавить</string>
+    <string name="ButtonView">Вывод</string>
+</resources>
