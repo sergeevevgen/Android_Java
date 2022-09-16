@@ -28,11 +28,12 @@ public class MainActivity extends AppCompatActivity {
 
         Button buttonToast = findViewById(R.id.buttonToast);
         buttonToast.setOnClickListener(view -> {
-            StringBuilder str = new StringBuilder();
+
             if (!list.isEmpty()) {
+                StringBuilder str = new StringBuilder();
                 SparseBooleanArray k = listView.getCheckedItemPositions();
 
-                for(int i = 0; i < list.size(); ++i)
+                for(int i = 0; i < k.size() && i < list.size(); ++i)
                 {
                     if (k.valueAt(i))
                     {
