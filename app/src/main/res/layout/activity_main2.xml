@@ -7,11 +7,10 @@
     tools:context="com.example.myapplication.MainActivity">
 
     <ListView
-        android:id="@+id/lv"
+        android:id="@+id/list_view_m2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
-
     </ListView>
 
     <LinearLayout
@@ -20,7 +19,7 @@
         android:orientation="horizontal">
 
         <EditText
-            android:id="@+id/editTextElem"
+            android:id="@+id/editTextElem_m2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -37,7 +36,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btnAddNew"
+            android:id="@+id/btnAddNew_m2"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -45,7 +44,7 @@
             android:text="@string/add_new" />
 
         <Button
-            android:id="@+id/btnEditSel"
+            android:id="@+id/btnEditSel_m2"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -53,7 +52,7 @@
             android:text="@string/edit_selected" />
 
         <Button
-            android:id="@+id/btnDelSel"
+            android:id="@+id/btnDelSel_m2"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -67,7 +66,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btnSelect"
+            android:id="@+id/btnSelect_m2"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -75,7 +74,7 @@
             android:text="@string/select_all" />
 
         <Button
-            android:id="@+id/btnDeselect"
+            android:id="@+id/btnDeselect_m2"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -83,7 +82,7 @@
             android:text="@string/deselect_all" />
 
         <Button
-            android:id="@+id/btnFind"
+            android:id="@+id/btnFind_m2"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
